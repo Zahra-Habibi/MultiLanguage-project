@@ -10,3 +10,6 @@ F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.dll
 F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\refint\MultiLanguage.Core.dll
 F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.pdb
 F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\ref\MultiLanguage.Core.dll
+F:\MultiLanguage\MultiLanguage.Core\bin\Debug\net6.0\MultiLanguage.DataLayer.dll
+F:\MultiLanguage\MultiLanguage.Core\bin\Debug\net6.0\MultiLanguage.DataLayer.pdb
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.csproj.CopyComplete
