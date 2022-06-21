@@ -1,0 +1,14 @@
+F:\MultiLanguage\MultiLanguage.DataLayer\bin\Debug\net6.0\MultiLanguage.DataLayer.deps.json
+F:\MultiLanguage\MultiLanguage.DataLayer\bin\Debug\net6.0\MultiLanguage.DataLayer.runtimeconfig.json
+F:\MultiLanguage\MultiLanguage.DataLayer\bin\Debug\net6.0\MultiLanguage.DataLayer.dll
+F:\MultiLanguage\MultiLanguage.DataLayer\bin\Debug\net6.0\MultiLanguage.DataLayer.pdb
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.csproj.AssemblyReference.cache
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.AssemblyInfoInputs.cache
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.AssemblyInfo.cs
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.csproj.CoreCompileInputs.cache
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.dll
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\refint\MultiLanguage.DataLayer.dll
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.pdb
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\MultiLanguage.DataLayer.genruntimeconfig.cache
+F:\MultiLanguage\MultiLanguage.DataLayer\obj\Debug\net6.0\ref\MultiLanguage.DataLayer.dll
