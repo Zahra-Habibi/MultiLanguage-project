@@ -1,0 +1,36 @@
+﻿<div class="navbar navbar-fixed-top" style="background-color:#9b9d9d;">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+
+        <ul class="nav navbar-nav visible-xs-block">
+            <li><a data-toggle="collapse" data-target="#navbar-mobile" style="color:white;"><i class="icon-tree5"></i></a></li>
+            <li><a class="sidebar-mobile-main-toggle" style="color:black;"><i class="icon-paragraph-justify3"></i></a></li>
+        </ul>
+
+    </div>
+
+    <div class="navbar-collapse collapse" id="navbar-mobile" style="background-color:#9b9d9d;">
+        <ul class="nav navbar-nav">
+            <li>
+                <a class="sidebar-control sidebar-main-toggle hidden-xs" style="color:black;"><i class="icon-paragraph-justify3"></i></a>
+            </li>
+        </ul>
+        <form asp-area="" asp-controller="Account" asp-action="LogOut" method="post">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-user">
+                    <a class="dropdown-toggle" data-toggle="dropdown" style="color:black;">
+
+                        <span>امکانات شخصی</span>
+                        <i class="caret"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#"><i class="icon-user-plus"></i>پروفایل من</a></li>
+                        <li class="divider"></li>
+                        <li><button type="submit" style="border:none; background-color:white"><i class="icon-switch2"></i> خروج از سیستم</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
