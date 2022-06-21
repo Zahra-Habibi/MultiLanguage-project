@@ -1,0 +1,12 @@
+F:\MultiLanguage\MultiLanguage.Core\bin\Debug\net6.0\MultiLanguage.Core.deps.json
+F:\MultiLanguage\MultiLanguage.Core\bin\Debug\net6.0\MultiLanguage.Core.dll
+F:\MultiLanguage\MultiLanguage.Core\bin\Debug\net6.0\MultiLanguage.Core.pdb
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.csproj.AssemblyReference.cache
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.AssemblyInfoInputs.cache
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.AssemblyInfo.cs
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.csproj.CoreCompileInputs.cache
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.dll
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\refint\MultiLanguage.Core.dll
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\MultiLanguage.Core.pdb
+F:\MultiLanguage\MultiLanguage.Core\obj\Debug\net6.0\ref\MultiLanguage.Core.dll
