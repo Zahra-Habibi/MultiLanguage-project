@@ -66,3 +66,10 @@ F:\MultiLanguage\MultiLanguage\obj\Debug\net6.0\refint\MultiLanguage.dll
 F:\MultiLanguage\MultiLanguage\obj\Debug\net6.0\MultiLanguage.pdb
 F:\MultiLanguage\MultiLanguage\obj\Debug\net6.0\MultiLanguage.genruntimeconfig.cache
 F:\MultiLanguage\MultiLanguage\obj\Debug\net6.0\ref\MultiLanguage.dll
+F:\MultiLanguage\MultiLanguage\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.Views.dll
+F:\MultiLanguage\MultiLanguage\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.dll
+F:\MultiLanguage\MultiLanguage\bin\Debug\net6.0\AutoMapper.dll
+F:\MultiLanguage\MultiLanguage\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\MultiLanguage\MultiLanguage\bin\Debug\net6.0\MultiLanguage.Core.dll
+F:\MultiLanguage\MultiLanguage\bin\Debug\net6.0\MultiLanguage.Core.pdb
+F:\MultiLanguage\MultiLanguage\obj\Debug\net6.0\MultiLanguage.MvcApplicationPartsAssemblyInfo.cs

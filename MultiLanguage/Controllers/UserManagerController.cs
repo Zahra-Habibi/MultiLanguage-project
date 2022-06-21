@@ -107,7 +107,7 @@ namespace MultiLanguage.Controllers
         public async Task<IActionResult> EditUser(UserViewModels model)
         {
 
-return View(model); 
+          return View(model); 
         }
 
 

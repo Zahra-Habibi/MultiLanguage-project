@@ -21,4 +21,14 @@
     <ProjectReference Include="..\MultiLanguage.DataLayer\MultiLanguage.DataLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\panel\assets\js\charts\google\bars\" />
+    <Folder Include="wwwroot\panel\assets\js\charts\google\bubbles\" />
+    <Folder Include="wwwroot\panel\assets\js\charts\google\lines\" />
+    <Folder Include="wwwroot\panel\assets\js\charts\google\New folder\" />
+    <Folder Include="wwwroot\panel\assets\js\charts\google\other\" />
+    <Folder Include="wwwroot\panel\assets\js\maps\vector\" />
+    <Folder Include="wwwroot\panel\assets\js\plugins\buttons\" />
+  </ItemGroup>
+
 </Project>
