@@ -1,0 +1,130 @@
+﻿
+@model MultiLanguage.Core.PublicClasses
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var counter = 1;
+}
+
+<div class="content">
+    <div class="panel panel-heading" style="box-shadow:3px 1px 1px 0 gray; border-radius:2px;">
+        <span>
+            <i class="glyphicon glyphicon-user"></i>
+            لست کاربران سامانه
+        </span>
+    </div>
+    <div style="margin-bottom:5px;">
+        <a class="btn customGreen1" asp-controller="UserManager" asp-action="AddUser">
+            <i class="glyphicon glyphicon-plus"></i>
+            افزودن کاربر جدید
+        </a>
+    </div>
+
+    <div>
+        <div class=" table-responsive">
+            <table class="table table-bordered table-hover table-striped" style="border-radius:2px; box-shadow:3px 3px 1px 0 gray;">
+                <thead style="font-weight:bold;">
+                    <tr>
+                        <td>ردیف</td>
+                        <td>نام</td>
+                        <td>فامیلی</td>
+                        <td>شماره تماس</td>
+                        <td>کد پرسنلی</td>
+                        <td>کد ملی</td>
+                        <td> تصویر</td>
+                        <td> امضا</td>
+                        <td>وضعیت</td>
+                        <td>نوع</td>
+                        <td>عملیات</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr style="font-size:12px;">
+                            <td style="width:40px; text-align:center;">@counter</td>
+                            <td style="text-align:right;">@item.FirstName</td>
+                            <td>@item.Family</td>
+                            <td>@item.PhoneNumber</td>
+                            <td>@item.personalCode</td>
+                            <td>@item.MelliCode</td>
+                            <td style="text-align:center; padding:2px;">
+                                <img src="~/upload/userimage/@item.ImagePath" style="width:60px; height:65px;" />
+                            </td>
+                            <td style="text-align:center; padding:2px;">
+                                <img src="~/upload/signatureimage/@item.SignaturePath" style="width:60px; height:65px;" />
+                            </td>
+                            @if (item.IsActive == 1)
+                            {
+                                <td style="width:35px; color:black;">
+                                    <span class="badge badge-success" style="width:50px; border-radius:15px;">
+                                        فعال
+                                    </span>
+                                </td>
+                            }
+                            else
+                            {
+                                <td style="width:35px; color:black;">
+                                    <span class="badge badge-danger" style="width:50px; border-radius:15px;">
+                                        غیر فعال
+                                    </span>
+                                </td>
+                            }
+                           <td>
+                               @(item.IsAdmin==1 ? "ادمین" :"کاربر" )
+                           </td>
+                            <td>
+                                <div class="row">
+                                    <a asp-action="UserDetails" asp-controller="UserManager" asp-route-userId="@item.Id" style="width:65px; height:30px;
+                                       font-size:10px; margin-bottom:3px; " class="btn customBlue1">
+                                        <i class="glyphicon glyphicon-book"></i>
+                                    </a>
+                                    <a asp-controller="UserManager" asp-action="EditUser" asp-route-userId="@item.Id"
+                                       style="height:30px; width:60px; font-size:9px; margin-bottom:3px;"
+                                       class="btn customYellow1">
+                                        <i class="glyphicon glyphicon-edit"></i>
+                                    </a>
+
+                                    @if (item.IsActive == 1)
+                                    {
+                                        <a asp-action="ActiveOrDeactiveUser" asp-controller="UserManager"
+                                           asp-route-userID="@item.Id" asp-route-IsActive="@item.IsActive" data-toggle="modal" data-target="#modal-action" style="width:65px; height:30px;
+                                       font-size:10px; margin-bottom:3px; " class="btn customRed1 ">
+                                            <i class="glyphicon glyphicon-remove"></i>
+                                        </a>
+
+                                    }
+                                    else
+                                    {
+                                        <a asp-action="ActiveOrDeactiveUser" asp-controller="UserManager" asp-route-userID="@item.Id" asp-route-IsActive="@item.IsActive" data-toggle="modal" data-target="#modal-action"
+                                           style="width:65px; height:30px;
+                                       font-size:10px; margin-bottom:3px; " class="btn customGreen1 ">
+                                            <i class="glyphicon glyphicon-ok"></i>
+                                        </a>
+                                    }
+                                    <a asp-action="ChangePasswordByAdmin" asp-controller="UserManager" 
+                                       asp-route-UserId="@item.Id"
+                                       asp-route-FullName="@item.FirstName @item.Family"
+                                       data-toggle="modal" data-target="#modal-action"
+                                       style="width:65px; height:30px;
+                                       font-size:10px; margin-bottom:3px; " class="btn customGreen1 ">
+                                        <i class="icon-key"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        counter++;
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+@Html.Partial("_Modal", new BootstrapModel { ID = "modal-action", Size = BootstrapModel.ModalSize.Large })
+
+@section AdminScripts {
+   <script src="~/js/modal/modal.js"></script>
+    }
+
